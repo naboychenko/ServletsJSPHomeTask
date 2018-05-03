@@ -1,0 +1,7 @@
+Simple Java Web App
+Built With:
+Maven
+Run:
+mvn tomcat7:run
+Tests (works only if tomcat is running):
+mvn test

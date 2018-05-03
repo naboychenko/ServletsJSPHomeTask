@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/main")
 public class AjaxServlet extends HttpServlet {
-  private static String servletInnerState;
+  private String servletInnerState;
 
   private void sendResponse(HttpServletResponse response) throws IOException {
 

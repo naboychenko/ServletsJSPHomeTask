@@ -35,7 +35,6 @@
 <body>
 <h2>Servlet/JSP hometask</h2>
 
-
 <button id="button_get">GET</button>
 <button id="button_post">POST</button>
 <button id="button_put">PUT</button>
@@ -43,12 +42,14 @@
 
 <br>
 <br>
-Servlet inner state:<div id="result"></div>
+Servlet inner state:
+<div id="result"></div>
 <br>
 <br>
 Amount of page views: ${cookie.views_amount.value}
 <br>
 <br>
-JSTL fmt formatNumber usage example: <fmt:formatNumber type="percent" maxIntegerDigits="4" value="${cookie.views_amount.value}" />
+JSTL fmt formatNumber usage example: <fmt:formatNumber type="percent" maxIntegerDigits="4"
+                                                       value="${cookie.views_amount.value}"/>
 </body>
 </html>
