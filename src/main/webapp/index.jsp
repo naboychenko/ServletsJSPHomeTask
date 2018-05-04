@@ -16,7 +16,7 @@
         }
     }
     if (!cookieExist) {
-        Cookie viewsAmount = new Cookie("views_amount", String.valueOf(0));
+        Cookie viewsAmount = new Cookie("views_amount", String.valueOf(1));
         viewsAmount.setMaxAge(60 * 60 * 24);
         viewsAmount.setPath("/");
         response.addCookie(viewsAmount);
